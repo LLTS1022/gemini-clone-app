@@ -1,9 +1,12 @@
 import React from 'react'
+import Sidebar from './components/Sidebar/Sidebar'
 
 const App = () => {
   return (
-    
-   <div><img src="/src/assets/AI-image.webp" alt="Random Image" /></div> 
+    <>
+    <Sidebar />
+    </>
+  
   )
 }
 
